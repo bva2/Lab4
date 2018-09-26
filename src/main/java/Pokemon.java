@@ -111,7 +111,7 @@ public class Pokemon {
          * Did our attack hit?
          */
         if ((attackLevel + attackBonus) > (opponent.defenseLevel + defenseBonus)) {
-            System.out.println("The attack hits dealing 3-D6 damage!");
+            System.out.println("The attack hits, dealing " + totalDamage + " damage!");
             System.out.println("The rolls are " + damage1 + ", " + damage2 + ", " + "and "
                     + damage3 + " totaling: " + totalDamage + " damage!");
 

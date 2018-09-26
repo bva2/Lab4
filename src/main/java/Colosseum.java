@@ -84,7 +84,7 @@ public class Colosseum {
         System.out.println("Split fifty points between attack level and defense level.");
         System.out.println("Enter your attack level (1-49)");
         int atk = myScan.nextInt();
-        while (atk > MAX_HIT_POINTS || atk <= 0) {
+        while (atk >= MAX_HIT_POINTS || atk <= 0) {
             System.out.println("Sorry. The attack level must be between 1 and 49: " + atk);
             atk = myScan.nextInt();
         }
